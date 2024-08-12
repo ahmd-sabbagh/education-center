@@ -1,0 +1,34 @@
+.Home .icons-container {
+  gap: 31px;
+}
+.Home .icons-container .NumberStudents {
+  flex-grow: 1;
+}
+.Home .icons-container .NumberStudents:nth-child(2) .icon svg path {
+  fill: rgba(81, 206, 244, 1);
+}
+.Home .icons-container .NumberStudents:nth-child(3) .icon svg path {
+  fill: rgba(75, 214, 87, 1);
+}
+.Home .icons-container .NumberStudents:nth-child(4) .icon svg path {
+  fill: rgba(243, 95, 52, 1);
+}
+.Home .col-4 > .Groups {
+  border-radius: 20px;
+  border: 1px solid var(--Colors-Black-Black-1, rgba(0, 0, 0, 0.05));
+  background: #fff;
+  padding: 23px;
+}
+.Home .group-dubble .cont {
+  border-radius: 20px;
+  border: 1px solid var(--Colors-Black-Black-1, rgba(0, 0, 0, 0.05));
+  background: #fff;
+  padding: 23px;
+}
+.Home .group-dubble .cont .line {
+  display: block;
+  border: 1px dashed #e1e3ea;
+}
+.Home .charts{
+    max-width: 100%;
+}

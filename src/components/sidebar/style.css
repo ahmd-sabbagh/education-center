@@ -1,0 +1,9 @@
+.SideBar {
+  background-color: #7463d0;
+  min-width: 399px;
+  min-height: 100vh;
+}
+
+.SideBar .logo svg {
+  width: 146px;
+}

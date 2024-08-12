@@ -1,0 +1,7 @@
+.LoginForm .forget {
+  color: var(--MAIN, #7463d0);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}

@@ -1,13 +1,56 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* fonts */
+@font-face {
+  font-family: "light";
+  src: url("./assets/fonts/ArbFONTS-Loew-Next-Arabic-Light.ttf")
+    format("truetype");
 }
+@font-face {
+  font-family: "medium";
+  src: url("./assets/fonts/ArbFONTS-Loew-Next-Arabic-Medium.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "bold";
+  src: url("./assets/fonts/ArbFONTS-Loew-Next-Arabic-Bold.ttf")
+    format("truetype");
+}
+/* fonts */
+body {
+  /* font-family: "Cairo", sans-serif; */
+  scroll-behavior: smooth;
+}
+.flex-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  outline: none !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+.pointer {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+}
+/* input */
+input::placeholder {
+  font-family: light;
+}
+/* input */

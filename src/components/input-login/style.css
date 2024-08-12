@@ -1,0 +1,12 @@
+.InputLogin{
+    border-radius: 50px;
+    width: 327px;
+    padding:22px 18px;
+}
+.InputLogin input::placeholder {
+    color: var(--Colors-Black-Black-3, rgba(0, 0, 0, 0.20));
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}

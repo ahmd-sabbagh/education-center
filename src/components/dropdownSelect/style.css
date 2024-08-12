@@ -1,0 +1,38 @@
+.select {
+  height: 69px;
+  border-radius: 34px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #f7f7fa;
+}
+.select .arrow svg path {
+  stroke: Gray;
+}
+.select .arrow {
+  transition: 0.3s;
+}
+.select .arrow.up {
+  transform: rotate(182deg);
+}
+/* menu */
+.Drop .menu {
+  height: 200px;
+  background-color: #7463d1;
+  width: 100%;
+  bottom: calc(-100% - 105px);
+  border-radius: 20px;
+  box-shadow: 0 0 20px 0px #0000003d;
+  animation-name: drop;
+  animation-duration: 0.5s;
+  z-index: 100;
+}
+/* animation */
+@keyframes drop {
+  from {
+    transform: translateY(-5px);
+    opacity: 0.5;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

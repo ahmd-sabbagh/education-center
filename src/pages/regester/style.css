@@ -1,0 +1,46 @@
+.Register {
+  min-height: 100vh;
+  background-color: #f7f8fa;
+}
+.Register .image {
+  width: 50%;
+}
+.Register .card-data {
+  background: white;
+  border-radius: 34px;
+  width: 505px;
+  box-shadow: 0 0 20px 0 #0000000f;
+}
+.Register h2 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+}
+.Register p:first-of-type {
+  color: #999999;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 850;
+  line-height: 24px;
+  margin-top: 8px;
+  margin-bottom: 39px;
+}
+.Register .end .span {
+  color: var(--Colors-Black-Black-10, #000);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+}
+.Register .end .span:last-child {
+  color: #7463d0;
+}
+.Register .image span{
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 34px; /* 141.667% */
+}

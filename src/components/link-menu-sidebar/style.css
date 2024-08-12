@@ -1,0 +1,12 @@
+.link-menu {
+  height: 85px;
+}
+.link-menu {
+  background-color: transparent ;
+  border: none;
+  transition: .3s;
+}
+.link-menu:hover {
+  background-color: rgba(255, 255, 255, .1)!important;
+  border-right: 5px solid rgba(251, 188, 5, 1);
+}
