@@ -8,7 +8,7 @@ import { Text } from "../../components";
 function Login() {
   return (
     <div className="Login flex-c flex-column">
-      <div className="card-login p-5 d-flex flex-column align-items-center">
+      <div className="card-login p-3 p-md-5 d-flex flex-column align-items-center">
         <div>
           <LoginLogo />
         </div>

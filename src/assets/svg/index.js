@@ -20,6 +20,7 @@ import { ReactComponent as Notification } from "./notification.svg";
 import { ReactComponent as UserBar } from "./user-bar.svg";
 import { ReactComponent as NumberOfStudents } from "./numberOfStudent.svg";
 import { ReactComponent as DateNote } from "./date.svg";
+import { ReactComponent as Menu } from "./menu.svg";
 export {
   LoginLogo,
   Mail,
@@ -43,4 +44,5 @@ export {
   UserBar,
   NumberOfStudents,
   DateNote,
+  Menu
 };

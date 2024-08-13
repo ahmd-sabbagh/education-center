@@ -44,3 +44,9 @@
   font-weight: 300;
   line-height: 34px; /* 141.667% */
 }
+
+@media (max-width: 767px) {
+  .Register .card-data {
+    width: fit-content;
+  }
+}

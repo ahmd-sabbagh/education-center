@@ -23,20 +23,20 @@ const tableData = [
 
 function Home() {
   return (
-    <div className="Home">
+    <div className="Home mt-4 mt-md-0">
       <Text type="h2" size="regular" weight="bold">
         {"الصفحة الرئيسية"}
       </Text>
-      <div className="icons-container mt-5 mb-5 d-flex justify-content-between align-items-center">
+      <div className="icons-container flex-wrap my-4 my-md-5 d-flex justify-content-between align-items-center">
         {data.map((item, idx) => (
           <NumberStudents {...item} key={idx} />
         ))}
       </div>
       <div className="row g-4">
-        <div className="col-8">
+        <div className="col-12 col-lg-8">
           <img className="charts" src={images.Charts} />
         </div>
-        <div className="col-4">
+        <div className="col-12 col-lg-4">
           <Groups {...tableData[0]} />
           <div className="group-dubble mt-5">
             <Text

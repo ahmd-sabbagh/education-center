@@ -14,16 +14,16 @@ function ModifyTest() {
             <div className="col-12">
               <Drop placholder={"اختر المادة"} title={"اسم المادة"} />
             </div>
-            <div className="col-6">
+            <div className="co-12 col-md-6">
               <Drop placholder={"اختر المادة"} title={"اسم المادة"} />
             </div>
-            <div className="col-6">
+            <div className="co-12 col-md-6">
               <Drop placholder={"اختر المادة"} title={"اسم المادة"} />
             </div>
-            <div className="col-6">
+            <div className="co-12 col-md-6">
               <Drop placholder={"اختر المادة"} title={"اسم المادة"} />
             </div>
-            <div className="col-6">
+            <div className="co-12 col-md-6">
               <Drop placholder={"اختر المادة"} title={"اسم المادة"} />
             </div>
             <div className="col-12">
@@ -32,7 +32,7 @@ function ModifyTest() {
           </div>
         </div>
       </div>
-      <div className="d-flex justify-content-end" style={{marginTop:"37px"}}>
+      <div className="d-flex justify-content-center justify-content-md-end" style={{marginTop:"37px"}}>
         <Button text={"حفظ و اضافة"} />
       </div>
     </>

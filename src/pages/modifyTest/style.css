@@ -2,3 +2,8 @@
     padding: 32px;
     border-radius: 20px;
 }
+@media (max-width: 767px) {
+    .ModifyTest{
+        padding: 16px;
+    }
+  }

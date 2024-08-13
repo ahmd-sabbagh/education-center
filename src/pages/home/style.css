@@ -13,7 +13,7 @@
 .Home .icons-container .NumberStudents:nth-child(4) .icon svg path {
   fill: rgba(243, 95, 52, 1);
 }
-.Home .col-4 > .Groups {
+.Home .col-12 > .Groups {
   border-radius: 20px;
   border: 1px solid var(--Colors-Black-Black-1, rgba(0, 0, 0, 0.05));
   background: #fff;

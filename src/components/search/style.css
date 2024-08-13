@@ -1,7 +1,12 @@
 .Search {
-  width: 461px;
+  flex-grow: 1;
   height: 68px;
   border-radius: 34px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: #f7f7fa;
+}
+@media (min-width: 992px) {
+  .Search {
+    max-width: 461px;
+  }
 }
